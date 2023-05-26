@@ -5,7 +5,7 @@ module.exports = {
         port: '85',
         exec_mode: 'fork',
         instances: '1',
-        script: './.output/server/index.mjs'
+        script: '.output/server/index.mjs'
       }
     ]
   }
