@@ -17,7 +17,7 @@
     <section class="header-right">
       <ul>
         <!-- <li>Log In</li> -->
-        <li><button>进入博客首页</button></li>
+        <li><button><a href="http://www.chaohangweb.cn:83" traget="_blank">进入博客首页</a></button></li>
       </ul>
     </section>
 
@@ -131,6 +131,10 @@ function switchoverPage(path) {
           &:active {
             background-color: $btn-bg-color;
           }
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
         }
       }
     }

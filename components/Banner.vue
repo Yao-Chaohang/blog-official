@@ -3,7 +3,7 @@
         <div class="banner-main">
             <h2 class="animate__animated animate__pulse">欢迎大家一起和我来学习前端开发方向的技术知识，在关于页面有作者的联系方式，喜欢前端的同学可以联系我，一起学习，共同进步</h2>
             <span class="describe">博客内容主要开始以前端开发方向的为主，可能也会涉及一些服务端和开发工具类的相关内容，文章内容部分来源于网络，如有侵权，请联系作者删除</span>
-            <button>开启学习之旅！</button>
+            <button><a href="http://www.chaohangweb.cn:83" traget="_blank">开启学习之旅！</a></button>
             <span class="hint">拥有60+年的前端开发经验</span>
         </div>
     </div>
@@ -54,6 +54,10 @@
             }
             &:active {
                 background-color: $btn-bg-color;
+            }
+            a {
+                color: #fff;
+                text-decoration: none;
             }
         }
     }
